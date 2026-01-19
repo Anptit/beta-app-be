@@ -58,8 +58,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-16T07:47:43.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T07:47:43.895Z"
             },
             {
               "$type": "Document",
@@ -69,7 +68,7 @@
               "RelativeDocumentMoniker": "Controllers\\MovieController.cs",
               "ToolTip": "C:\\MyProjects\\BetaTheaterBE\\Controllers\\MovieController.cs",
               "RelativeToolTip": "Controllers\\MovieController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAA7wBoAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-16T06:51:06.079Z",
               "EditorCaption": ""
@@ -84,8 +83,7 @@
               "RelativeToolTip": "Model\\MongoDbSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T04:29:49.64Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T04:29:49.64Z"
             },
             {
               "$type": "Document",
@@ -97,8 +95,7 @@
               "RelativeToolTip": "Service\\MovieService.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T04:22:32.201Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T04:22:32.201Z"
             },
             {
               "$type": "Document",
@@ -110,8 +107,7 @@
               "RelativeToolTip": "Interface\\IMovieService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T04:22:20.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T04:22:20.007Z"
             },
             {
               "$type": "Document",
@@ -123,8 +119,7 @@
               "RelativeToolTip": "Model\\Movie.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T03:53:36.373Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T03:53:36.373Z"
             },
             {
               "$type": "Document",
@@ -136,8 +131,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T10:00:31.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-15T10:00:31.086Z"
             }
           ]
         },

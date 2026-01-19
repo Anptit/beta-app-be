@@ -3,12 +3,8 @@ using MongoDB.Bson.Serialization.Attributes;
 
 namespace BetaTheaterBE.Model
 {
-    public class Movie
+    public class Movie : EntityBase
     {
-        [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)]
-        public string? Id { get; set; }
-
         [BsonElement("title")]
         public string Title { get; set; } = null!;
 
@@ -24,6 +20,12 @@ namespace BetaTheaterBE.Model
         [BsonElement("language")]
         public string Language { get; set; } = null!;
 
+        [BsonElement("director")]
+        public string Director { get; set; } = null!;
+
+        [BsonElement("cast")]
+        public List<string> Cast { get; set; } = new();
+
         [BsonElement("subtitle")]
         public string Subtitle { get; set; } = null!;
 
@@ -38,8 +40,5 @@ namespace BetaTheaterBE.Model
 
         [BsonElement("status")]
         public string Status { get; set; } = String.Empty;
-
-        [BsonElement("createdAt")]
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
     }
 }
