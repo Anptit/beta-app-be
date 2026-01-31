@@ -1,10 +1,8 @@
 ﻿using BetaTheaterBE.Model;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
-using MongoDB.Bson;
-using System.Text.RegularExpressions;
 
-namespace BetaTheaterBE.Service
+namespace BetaTheaterBE.Services
 {
     public class MovieService : GenericMongoService<Movie>
     {

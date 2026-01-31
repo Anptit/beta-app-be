@@ -1,5 +1,12 @@
 namespace BetaTheaterBE.Model
 {
+    public enum SeatStatus
+    {
+        AVAILABLE,
+        BOOKED,
+        SOLD
+    }
+
     public class Showtime : EntityBase
     {
         public string MovieId { get; set; } = string.Empty;
@@ -7,6 +14,6 @@ namespace BetaTheaterBE.Model
         public string CinemaId { get; set; } = string.Empty;
         public DateTime StartTime { get; set; }
         public decimal Price { get; set; }
-        public List<BookedSeat> BookedSeats { get; set; } = new();
+        public Dictionary<string, SeatStatus> BookedSeats { get; set; } = new();
     }
 }

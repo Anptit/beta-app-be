@@ -3,7 +3,7 @@ using Microsoft.Extensions.Options;
 using MongoDB.Bson;
 using MongoDB.Driver;
 
-namespace BetaTheaterBE.Service
+namespace BetaTheaterBE.Services
 {
     public class GenericMongoService<T> where T : EntityBase
     {

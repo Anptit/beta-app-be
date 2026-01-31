@@ -1,8 +1,8 @@
 ﻿using BetaTheaterBE.Model;
-using BetaTheaterBE.Service;
+using BetaTheaterBE.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BetaTheaterBE.Controller
+namespace BetaTheaterBE.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
@@ -19,7 +19,7 @@ namespace BetaTheaterBE.Controller
         public async Task<List<Movie>> Get() =>
             await _movieService.GetAsync();
 
-        [HttpGet("{id:length(24)}")]
+        [HttpGet("{id}")]
         public async Task<ActionResult<Movie>> Get(string id)
         {
             var movie = await _movieService.GetAsync(id);
@@ -33,7 +33,7 @@ namespace BetaTheaterBE.Controller
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post(Movie newMovie)
+        public async Task<IActionResult> Post([FromBody] Movie newMovie)
         {
             var existing = await _movieService.GetByTitleAsync(newMovie.Title);
             if (existing is not null)
@@ -46,7 +46,7 @@ namespace BetaTheaterBE.Controller
             return CreatedAtAction(nameof(Get), new { id = newMovie.Id }, newMovie);
         }
 
-        [HttpPatch("{id:length(24)}")]
+        [HttpPatch("{id}")]
         public async Task<IActionResult> Update(string id, Movie updatedMovie)
         {
             var movie = await _movieService.GetAsync(id);
